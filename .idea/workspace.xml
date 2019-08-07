@@ -2,99 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="798314fd-50d4-49cb-bc1d-be1f756fa464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/mymobile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mymobile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/artTemplate/template-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.poppicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/fonts/mui.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.poppicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zepto/fx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zepto/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zepto/touch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/zepto/zepto.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/category.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/search-result.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/active1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/active2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/active3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/active4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/active5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/brand8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nav1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nav2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nav3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nav4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nav5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nav6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/none.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/title0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/title1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/title2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/title3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/title4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/search-result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search-result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,7 +75,7 @@
       <workItem from="1564994087698" duration="31000" />
       <workItem from="1564994178253" duration="864000" />
       <workItem from="1564995500574" duration="381000" />
-      <workItem from="1564997149492" duration="47492000" />
+      <workItem from="1564997149492" duration="47531000" />
     </task>
     <servers />
   </component>
