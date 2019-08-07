@@ -1,0 +1,27 @@
+.my-header a {
+    color: #fff;
+}
+.getCode{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #2084AE;
+}
+button[type="button"]{
+    display: block;
+    width: 95%;
+    margin: 0 10px;
+    border: none;
+    background-color:#2084AE;
+    color: #fff;
+
+}
+.login-now{
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #2084AE;
+    text-align: right;
+}

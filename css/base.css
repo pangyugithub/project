@@ -1,0 +1,143 @@
+/*body及mui-content的背景，注意：单独只设置body的背景色是不行的*/
+/*因为mui-content也有默认的样式背景色，它会覆盖body的背景色*/
+/*从而导致body背景色不生效。*/
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+body,.mui-content{
+    background-color:#fff;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*覆盖mui样式的头部样式*/
+.my-header{
+    background-color:#007BA7;
+}
+.my-header h1{
+    color: #fff;
+}
+.my-header .mui-icon-search{
+    color: #fff;
+}
+header span img {
+    width: 10%;
+    height: 44px;
+    float: left;
+}
+/*覆盖mui样式的底部样式*/
+.my-footer{
+    background-color: #007BA7;
+}
+.my-footer .mui-tab-item{
+    color: #fff;
+}
+.my-footer .mui-tab-item.mui-active{
+    color: #ff8c00;
+}
+
+/*导航链接样式*/
+.nav-links{
+    padding: 10px;
+    overflow: hidden;  /*清除a元素浮动带来的影响。a元素浮动会导致它的父元素的高度无法张开，
+                        （其他用到需要清除浮动的地方也是这个原理）
+                         另外，这里也可以使用mui提供的样式类来加到父元素上使之清除浮动带来的影响，
+                         <div class="nav-links mui-clearfix"></div>
+                         从而使父元素被撑开,两种方法都可以*/
+}
+.nav-links a{
+    float: left;
+    width: 33.333%;
+}
+.nav-links a img{
+    width: 100%;
+    /*!*vertical-align: top;*!   方法一：消除上下两行之间的间距*/
+    display: block;    /*方法二：消除上下两行之间的间距*/
+}
+
+/*品牌专区样式*/
+.brand{
+    padding: 0 10px;
+}
+.brand .title{
+    width: 100%;
+}
+.brand ul{
+    padding: 10px 0;
+    overflow: hidden;
+}
+.brand ul li{
+    float: left;
+    width: 25%;
+}
+.brand ul li a {
+    display: block;
+
+}
+.brand ul li a img{
+    width: 100%;
+}
+
+/*运动生活专区*/
+.product{
+    margin: 0 10px;
+}
+.product .title{
+    width: 100%;
+}
+.product ul{
+padding:5px 0;
+}
+.product ul li{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.product ul li a{
+    display: block;
+    box-shadow: 0 0 5px #ccc;
+    padding: 5px;
+}
+.product ul li a img{
+    width: 100%;
+}
+.product ul li .name{
+    display: block;
+    color: #8f8f94;
+    font-size: 14px;
+    text-align: center;
+    height: 44px;
+    line-height: 18px;
+    padding: 5px;
+    overflow: hidden;
+}
+.product ul li p{
+    text-align: center;
+    padding-top: 6px;
+}
+.product ul li p span:first-child {
+    color: #f20;
+    margin-right: 2px;
+}
+.product ul li p span:last-child{
+    text-decoration: line-through;
+    margin-left: 2px;
+}
+.product ul li .buy-now {
+    display: block;
+    line-height: 16px;
+    text-align: center;
+    background-color: #006699;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: none;
+}
+
+/*女士专栏*/
+
+/*男士专栏*/

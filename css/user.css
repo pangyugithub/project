@@ -1,0 +1,9 @@
+.my-header a.mui-action-back{
+    color: #fff;
+}
+.mui-content ul li{
+    font-size: 14px;
+}
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0px;
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="798314fd-50d4-49cb-bc1d-be1f756fa464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/mymobile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mymobile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/artTemplate/template-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fontAwesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/css/mui.poppicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/fonts/mui.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mui/js/mui.poppicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zepto/fx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zepto/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zepto/touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/zepto/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/search-result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/active1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/active2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/active3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/active4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/active5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brand8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/none.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/search-result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1OxAZ5Bi0KF8XUb8QxkGX0MWp4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="798314fd-50d4-49cb-bc1d-be1f756fa464" name="Default Changelist" comment="" />
+      <created>1564908926002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564908926002</updated>
+      <workItem from="1564908927349" duration="12426000" />
+      <workItem from="1564992921610" duration="542000" />
+      <workItem from="1564994087698" duration="31000" />
+      <workItem from="1564994178253" duration="864000" />
+      <workItem from="1564995500574" duration="381000" />
+      <workItem from="1564997149492" duration="47492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
