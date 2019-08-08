@@ -42,7 +42,7 @@
 </nav>
 <!--中间内容 container-->
 <div class="mui-content">
-    <a href="addAddress.html">添加收货地址</a>
+    <a href="addAddress.html?isEdit=0">添加收货地址</a>
     <ul class="mui-table-view" id="address-box">
 <!--        <li class="mui-table-view-cell mui-media">-->
 <!--            <a href="javascript:;">-->
@@ -60,15 +60,18 @@
         <% for(var i=0;i<result.length ;i++){%>
 
             <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;">
-                    <div class="mui-media-body">
-                        邮编:<%=result[i].postCode%> 收货人:<%=result[i].recipients%>
-                        <p class='mui-ellipsis'>
-                            <%=result[i].address%>
-                            <%=result[i].addressDetail%>
-                        </p>
-                    </div>
-                </a>
+                <div class="mui-slider-right mui-disabled">
+<!--                    <a href="javascript:;" class="mui-btn mui-btn-warning" data-id="<%=result[i].id%>">编辑</a>-->
+                    <span class="mui-btn mui-btn-warning" data-id="<%=result[i].id%>">编辑</span>
+                    <a href="javascript:;" class="mui-btn mui-btn-red" data-id="<%=result[i].id%>">删除</a>
+                </div>
+                <div class="mui-media-body mui-slider-handle">
+                    邮编:<%=result[i].postCode%> 收货人:<%=result[i].recipients%>
+                    <p class='mui-ellipsis'>
+                        <%=result[i].address%>
+                        <%=result[i].addressDetail%>
+                    </p>
+                </div>
             </li>
 
         <%}%>

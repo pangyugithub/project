@@ -46,28 +46,31 @@
 </nav>
 <!--中间内容 container-->
 <div class="mui-content">
-    <form class="mui-input-group">
-        <div class="mui-input-row">
-<!--            <label>收货人姓名：</label>-->
-            <input type="text" class="mui-input-clear" placeholder="请输入收货人姓名" name="username">
-        </div>
-        <div class="mui-input-row">
-<!--            <label>邮编：</label>-->
-            <input type="password" class="mui-input-password" placeholder="请输入邮政编码" name="postCode">
-        </div>
-        <div class="mui-input-row">
-<!--            <label>请输入省市区：</label>-->
-            <input type="text" id="selectCity" readonly class="mui-input-password" placeholder="请输入省市区" name="city">
-        </div>
-        <div class="mui-input-row">
-<!--            <label>详细地址：</label>-->
-            <input type="password" class="mui-input-password" placeholder="请输入详细地址" name="detail">
-        </div>
-        <div class="mui-button-row">
-            <button type="button" class="mui-btn mui-btn-primary" id="addAddress">确认</button>
-            <button type="reset" class="mui-btn mui-btn-danger" >重置</button>
-        </div>
+    <form class="mui-input-group" id="editForm">
+
     </form>
 </div>
+<script id="editTpl" type="text/template">
+    <div class="mui-input-row">
+        <!--            <label>收货人姓名：</label>-->
+    <input type="text" class="mui-input-clear" placeholder="请输入收货人姓名" name="username" value="<%=recipients%>">
+        </div>
+        <div class="mui-input-row">
+        <!--            <label>邮编：</label>-->
+    <input type="password" class="mui-input-password" placeholder="请输入邮政编码" name="postCode" value="<%=postCode%>">
+        </div>
+        <div class="mui-input-row">
+        <!--            <label>请输入省市区：</label>-->
+    <input type="text" id="selectCity" readonly class="mui-input-password" placeholder="请输入省市区" name="city" value="<%=address%>">
+        </div>
+        <div class="mui-input-row">
+        <!--            <label>详细地址：</label>-->
+    <input type="password" class="mui-input-password" placeholder="请输入详细地址" name="detail" value="<%=addressDetail%>">
+        </div>
+        <div class="mui-button-row">
+        <button type="button" class="mui-btn mui-btn-primary" id="addAddress">确认</button>
+        <button type="reset" class="mui-btn mui-btn-danger" >重置</button>
+        </div>
+</script>
 </body>
 </html>

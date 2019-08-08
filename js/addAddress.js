@@ -1,4 +1,23 @@
 $(function () {
+        // 获取地址栏中的参数
+        //   1.地址字符串
+        //   2.要获取的参数的名称，返回参数名称对应的参数值
+            var isEdit = Number(getParamsByUrl(location.href,isEdit));
+            if (isEdit==1){
+                //编辑操作
+                if ( localStorage.getItem('editAddress')){
+                    var address = JSON.parse( localStorage.getItem('editAddress'));
+                    var html = template('editTpl',address);
+                    $('#editForm').html(html);
+                };
+            }else {
+                //添加操作
+                var html = template('editTpl',{});
+                $('#editForm').html(html);
+            }
+
+
+
         //创建picker选择器
         var picker = new  mui.PopPicker({layer:3});
         //为picker选择器添加数据
@@ -49,21 +68,49 @@ $(function () {
             return;
         };
 
-        $.ajax({
-            url:'/address/addAddress',
-            type:'post',
-            data:{
+        var data={
                 address:city,
                 addressDetail:detail,
                 recipients:username,
                 postcode:postCode
-            },
+        };
+        if (isEdit){
+            //编辑操作
+            var url = '/address/updateAddress';
+            data.id='address.id';
+
+        }else {
+            //添加操作
+            var url = '/address/addAddress';
+            data.id='';
+        }
+
+        $.ajax({
+            url:'',
+            type:'post',
+            data:data,
+            // data:{
+            //     address:city,
+            //     addressDetail:detail,
+            //     recipients:username,
+            //     postcode:postCode
+            // },
             success:function (res) {
-                mui.toast('地址添加成功！');
+                if (res.success){
+                    if (isEdit){
+                        mui.toast('地址修改成功！');
+                    }else {
+                        mui.toast('地址添加成功！');
+                    }
+
                 setTimeout(function () {
                     location.href = 'address.html';
                 },2000);
+              }
             }
         })
-    })
+    });
+
+
+
 });
