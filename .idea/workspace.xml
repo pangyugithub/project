@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="798314fd-50d4-49cb-bc1d-be1f756fa464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addAddress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/addAddress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/addAddress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/city.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="798314fd-50d4-49cb-bc1d-be1f756fa464" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
