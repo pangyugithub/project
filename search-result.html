@@ -62,7 +62,7 @@
 <script id="searchTpl" type="text/template">
     <% for(var i=0;i<data.length;i++){ %>
     <li>
-        <a href="">
+        <a href="detail.html?<%=data[i].id%>">
             <img src="<%=data[i].pic[0].picAddr%>" alt="">
             <span class="name">
                 <%=data[i].proName%>

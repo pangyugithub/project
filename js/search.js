@@ -10,7 +10,7 @@
         var keyword= $(this).siblings("input").val();
         //判断用户是否输入了搜索关键字
         if (!keyword){
-            alert("请输入要搜索的关键字");
+            mui.toast("请输入要搜索的关键字");
         }else {
             keyArr.push(keyword);// 将用户输入的关键字储存在数组中
             localStorage.setItem('keyArr',JSON.stringify(keyArr)); //将关键字数组储存在本地
