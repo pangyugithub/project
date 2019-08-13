@@ -69,7 +69,7 @@ $(function () {
     //获取验证码
     $('#getCode').on('tap', function () {
         $.ajax({
-            url: '/user/vCodeForUpdatePassword',
+            url: '',
             type: 'get',
             success: function (res) {
                 console.log(res.vCode);//将验证码输出到控制台,实际这一步需要付费发送到手机

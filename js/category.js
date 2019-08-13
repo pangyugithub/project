@@ -10,7 +10,7 @@ $(function(){
     $.ajax({
         url: '/category/queryTopCategory',
             type: 'get',
-                success: function(response){
+            success: function(response){
 
                 // 所谓模板引擎 作用就是用来帮我们将数据和html拼接好 将拼接好的结果 返回给我们
 
@@ -26,7 +26,7 @@ $(function(){
             if(response.rows.length){
 
                 // 给第一个一级分类添加选中状态
-                $('#links').find('a').eq(0).addClass('active')
+                $('#links').find('a').eq(0).addClass('active');
 
                 // 获取第一个一级分类的ID
                 var id = response.rows[0].id;
@@ -70,7 +70,7 @@ $(function(){
 function getSecondCategory(id) {
 
     $.ajax({
-        url: '/category/querySecondCategory',
+        url: '',
         type: 'get',
         data: {
             id: id

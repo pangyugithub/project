@@ -1,17 +1,20 @@
 /*body及mui-content的背景，注意：单独只设置body的背景色是不行的*/
 /*因为mui-content也有默认的样式背景色，它会覆盖body的背景色*/
 /*从而导致body背景色不生效。*/
-*, *:before, *:after{
-    box-sizing: border-box;
-}
 body,.mui-content{
     background-color:#fff;
+}
+*, *:before, *:after{
+    box-sizing: border-box;
 }
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
+
+
 /*覆盖mui样式的头部样式*/
 .my-header{
     background-color:#007BA7;
@@ -27,6 +30,9 @@ header span img {
     height: 44px;
     float: left;
 }
+
+
+
 /*覆盖mui样式的底部样式*/
 .my-footer{
     background-color: #007BA7;
@@ -37,6 +43,7 @@ header span img {
 .my-footer .mui-tab-item.mui-active{
     color: #ff8c00;
 }
+
 
 /*导航链接样式*/
 .nav-links{
@@ -54,8 +61,9 @@ header span img {
 .nav-links a img{
     width: 100%;
     /*!*vertical-align: top;*!   方法一：消除上下两行之间的间距*/
-    display: block;    /*方法二：消除上下两行之间的间距*/
+    display: block;              /*方法二：消除上下两行之间的间距*/
 }
+
 
 /*品牌专区样式*/
 .brand{
@@ -79,6 +87,7 @@ header span img {
 .brand ul li a img{
     width: 100%;
 }
+
 
 /*运动生活专区*/
 .product{
@@ -137,7 +146,6 @@ padding:5px 0;
     margin-bottom: 10px;
     border: none;
 }
-
 /*女士专栏*/
 
 /*男士专栏*/

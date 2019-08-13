@@ -39,7 +39,7 @@ $(function () {
         };
 
         $.ajax({
-            url: '/user/register',
+            url: '',
             type: 'post',
             data:{
                 username:username,
@@ -64,7 +64,7 @@ $(function () {
     //   3.将认证码输出到控制台（本应该是发送到手机号然后手机收到验证码再填入，由于这种方式收费所以这里就输出到控制台了）
     $('#getCode').on('click',function () {
         $.ajax({
-            url:'/user/vCode',
+            url:'',
             type:'get',
             success:function (res) {
                 console.log(res.vCode);

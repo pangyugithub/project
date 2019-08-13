@@ -5,7 +5,7 @@ $(function () {
     //存储收货地址数组
     var address = null;
     $.ajax({
-        url:'/address/queryAddress',
+        url:'',
         type:'get',
         success:function (res) {
             address = res;

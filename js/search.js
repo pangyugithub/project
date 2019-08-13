@@ -29,7 +29,7 @@
             keyArr = JSON.parse(localStorage.getItem('keyArr'));
             var html=template("historyTpl",{
                 result:keyArr
-            })
+            });
            $("#history-box").html(html);
         }
 

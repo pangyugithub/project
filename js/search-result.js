@@ -1,4 +1,5 @@
-//获取地址兰用户输入的关键字，它与操作DOM没关系，所以可以拿到函数外面不影响功能
+//获取地址兰用户输入的关键字(实际上就是获取的输入框里输入的内容)，它与操作DOM没关系，所以可以拿到函数外面不影响功能
+//getParamsByUrl();这个函数是我们自己封装的获取地址栏关键字的函数，由于常用所以把它放入到了public.js中，其他js文件直接调用即可
 var keyWord=getParamsByUrl(location.href,'keyword');
 //当前页
 var page=1;
@@ -53,6 +54,7 @@ $(function () {
             //重新获取数据
             getData()
     });
+
     $('#salesSort').on('tap',function () {
         //更改价格排序条件
         salesSort=salesSort==1 ? 2:1;
@@ -68,39 +70,34 @@ $(function () {
 });
 
 
-
-
-
-
-
-
 function getData() {
     if (!This){
         This=this;
     }
     var This=this;
     $.ajax({
-        url:'/product/queryProduct',
+        url:'',
         type:'get',
         data:{
             page:page++,
-            pageSize:6,
+            pageSize:4,
             proName:keyWord,
             price:priceSort,
             sales:salesSort
         },
         success:function (response) {
-            if (response.data.length > 0){
+            if (response.data.length > 0){  //如果还有数据
                 // var html=template('searchTpl',{response});
-                html+=template('searchTpl',{response});
+                html += template('searchTpl',response); //+=联同上一页的数据一并显示出来
                 $('#search-box').html(html);
                 //告诉上拉加载组件当前数据加载完毕
                 This.endPullupToRefresh(false);
-            }else {
-                //告诉上拉加载组件当前数据加载完毕
+            }else {//否则
+                //告诉上拉加载组件当前数据加载完毕,true没有更多数据
                 This.endPullupToRefresh(true);
             }
 
         }
     });
 }
+

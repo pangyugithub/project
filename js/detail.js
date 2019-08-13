@@ -11,7 +11,7 @@ $(function () {
 
     //通过接口请求数据
     $.ajax({
-        url:'/product/queryProductDetail',
+        url:'',
         type:'get',
         data:{
             id:id

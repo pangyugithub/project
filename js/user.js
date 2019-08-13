@@ -1,7 +1,7 @@
 var userInfo  = null; //保存的用户信息
 //获取用户信息，并且处理用户未登录的问题
 $.ajax({
-    url:'/user/queryUserMessage',
+    url:'',
     type:'get',
     async:false,  //使用同步加载
     success:function (res) {
@@ -18,7 +18,7 @@ $.ajax({
 $(function () {
     $('#logout').on('click',function () {
         $.ajax({
-            url:'/user/logout',
+            url:'',
             type:'get',
             success:function (res) {
                 if (res.success){
