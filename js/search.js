@@ -36,7 +36,7 @@
         // 实现清空历史功能
         //   1.给元素添加点击事件
         //   2.清空页面中的数据，清除本地储存中的数据
-        $("#clearHistory").click(function () {
+        $("#clearHistory").on('tap',function () {
             $("#history-box").html("");
             localStorage.clear("keyArr");
         })

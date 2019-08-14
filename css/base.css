@@ -48,7 +48,8 @@ header span img {
 /*导航链接样式*/
 .nav-links{
     padding: 10px;
-    overflow: hidden;  /*清除a元素浮动带来的影响。a元素浮动会导致它的父元素的高度无法张开，
+    overflow: hidden;
+    /*清除a元素浮动带来的影响。a元素浮动会导致它的父元素的高度无法张开，
                         （其他用到需要清除浮动的地方也是这个原理）
                          另外，这里也可以使用mui提供的样式类来加到父元素上使之清除浮动带来的影响，
                          <div class="nav-links mui-clearfix"></div>
