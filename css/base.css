@@ -18,6 +18,7 @@ ul{
 /*覆盖mui样式的头部样式*/
 .my-header{
     background-color:#007BA7;
+    /*opacity: 0.9;*/
 }
 .my-header h1{
     color: #fff;
